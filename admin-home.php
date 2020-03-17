@@ -21,7 +21,7 @@
         <div class="card col-md-4 pt-2">
           <h5 class="card-title font-weight-bold text-primary">Inscritos</h5>
           <!-- aqui tem php hein -->
-          <p class="card-text">Inscritos: 123456 </p>
+          <p class="card-text">Inscritos: 1000 </p>
         </div>
         <!-- fim card Inscritos -->
 

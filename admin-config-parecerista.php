@@ -15,7 +15,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="cpf">CPF*</label>
-                        <input type="text" class="form-control" id="cpf" placeholder="Nome">
+                        <input type="text" class="form-control" id="cpf" placeholder="cpf">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="nome">Nome*</label>

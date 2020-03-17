@@ -27,7 +27,7 @@
                     <label for="nome-trabalho">Título do trabalho</label>
                     <input type="text" class="form-control" id="nome-trabalho" placeholder="nome do trabalho">
                 </div>
-                <div class="col align-self-end"> <a href="parecerista-visualizar-trabalho.php">Avaliar trabalho</a></div>
+                <div class="col align-self-end"> <a href="parecerista-avaliar-trabalho.php">Avaliar trabalho</a></div>
             </div>
         </form>
         <hr class="my-3">
