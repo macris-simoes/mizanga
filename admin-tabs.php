@@ -13,7 +13,7 @@
   <div class="container">
     <!-- Início do menu das tabs ATENÇÃO: os IDs do menu e do conteúdo tem que ser iguais-->
     <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <div class="nav nav-pills" id="nav-pill" role="tablist">
         <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Início</a>
 
         <a class="nav-item nav-link font-weight-bolder" id="nav-congresso-tab" data-toggle="tab" href="#nav-congresso" role="tab" aria-controls="nav-congresso" aria-selected="false">Congresso</a>
@@ -36,19 +36,22 @@
       </div>
 
       <div class="tab-pane fade" id="nav-congresso" role="tabpanel" aria-labelledby="nav-congresso-tab">
-        <?php require('admin-config-congresso.php'); ?>
+
+        <?php require('admin-config-congresso-pills.php'); ?>
+        
       </div>
 
       <div class="tab-pane fade" id="nav-inscrito" role="tabpanel" aria-labelledby="nav-inscrito-tab">
-        <?php require('admin-config-inscrito.php'); ?>
+        <p>wait and see</p>
       </div>
-
+      
       <div class="tab-pane fade" id="nav-trabalho" role="tabpanel" aria-labelledby="nav-trabalho-tab">
-        <?php require('admin-config-trabalho.php'); ?>
+        <p>wait and see</p>
+        
       </div>
 
       <div class="tab-pane fade" id="nav-parecerista" role="tabpanel" aria-labelledby="nav-parecerista-tab">
-        <?php require('admin-config-parecerista.php'); ?>
+        
       </div>
 
     </div>
